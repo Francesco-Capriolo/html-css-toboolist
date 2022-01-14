@@ -82,8 +82,10 @@ li{
 /* icone finali di ogni lista */
 
 #back-radius{
+    margin-left: 5px;
     border-radius: 10px;
     font-size: xx-small;
+    color: white;
 }
 
 .editorial{
@@ -97,4 +99,16 @@ li{
     size: 5px;
     background-color: rgb(153, 54, 245);
     padding: 3px;
+}
+
+.recruiting{
+    size: 5px;
+    background-color: rgb(54, 245, 111);
+    padding: 3px
+}
+
+.mobile{
+    size: 5px;
+    background-color: rgb(245, 210, 54);
+    padding: 3px
 }
