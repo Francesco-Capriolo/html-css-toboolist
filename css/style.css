@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: lightgray;
+    background-color: rgb(243, 241, 241);
 }
 #logo {
     background-color: white;
@@ -21,6 +21,7 @@ h1{
     background-color: white;
     margin: 30px auto;
     width: 80%;
+    border-radius: 10px;
     
 }
 
@@ -28,10 +29,18 @@ h1{
     padding: 20px;
 }
 
-.add{
-    border-radius: 20px;
+.back{
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
 }
-
 .add-task{
     background-color: lightskyblue;
+    color: white;
+}
+
+.add-section{
+    color: lightslategray;
+    border: 1px solid lightslategray;
+    
 }
