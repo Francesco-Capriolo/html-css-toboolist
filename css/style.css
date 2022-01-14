@@ -29,6 +29,8 @@ h1{
 }
 .list{
     margin-top: 5px;
+    padding-left: 35px;
+
 }
 
 .head-container{
@@ -48,5 +50,32 @@ h1{
 .add-section{
     color: lightslategray;
     border: 1px solid lightslategray;
+    
+}
+h3{
+    padding-top: 20px;
+}
+
+ul {
+    list-style: none;
+    list-style-position: inside;
+}
+
+.right{
+    list-style-image: url("../img/right.png");
+}
+
+.wrong{
+    list-style-image: url("../img/wrong.png");
+}
+#back-radius{
+    border-radius: 10px;
+    font-size: xx-small;
+}
+
+.editorial{
+    size: 5px;
+    background-color: rgb(54, 172, 245);
+    padding: 3px;
     
 }
