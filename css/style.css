@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     background-color: rgb(243, 241, 241);
 }
+/* logo con titolo */
 #logo {
     background-color: white;
     
@@ -17,6 +19,7 @@ h1{
     display: inline-block;
 }
 
+/* testa della lista */
 .container{
     background-color: white;
     margin: auto;
@@ -52,6 +55,8 @@ h1{
     border: 1px solid lightslategray;
     
 }
+
+/* lista con check green e wrong */
 h3{
     padding-top: 20px;
 }
@@ -59,6 +64,11 @@ h3{
 ul {
     list-style: none;
     list-style-position: inside;
+    
+}
+li{
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .right{
@@ -68,6 +78,9 @@ ul {
 .wrong{
     list-style-image: url("../img/wrong.png");
 }
+
+/* icone finali di ogni lista */
+
 #back-radius{
     border-radius: 10px;
     font-size: xx-small;
@@ -78,4 +91,10 @@ ul {
     background-color: rgb(54, 172, 245);
     padding: 3px;
     
+}
+
+.goals{
+    size: 5px;
+    background-color: rgb(153, 54, 245);
+    padding: 3px;
 }
