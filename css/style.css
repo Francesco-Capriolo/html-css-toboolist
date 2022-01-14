@@ -56,7 +56,8 @@ h1{
     
 }
 
-/* lista con check green e wrong */
+/* corpo e lista con check green e wrong */
+
 h3{
     padding-top: 20px;
 }
@@ -86,29 +87,35 @@ li{
     border-radius: 10px;
     font-size: xx-small;
     color: white;
-}
-
-.editorial{
-    size: 5px;
-    background-color: rgb(54, 172, 245);
-    padding: 3px;
+    padding: 5px;
     
 }
 
+
+.editorial{
+    background-color: rgb(54, 172, 245);
+}
+
 .goals{
-    size: 5px;
     background-color: rgb(153, 54, 245);
-    padding: 3px;
 }
 
 .recruiting{
-    size: 5px;
     background-color: rgb(54, 245, 111);
-    padding: 3px
 }
 
 .mobile{
-    size: 5px;
     background-color: rgb(245, 210, 54);
-    padding: 3px
+}
+
+.website{
+    background-color: rgb(245, 54, 172);
+}
+
+.sales{
+    background-color: rgb(16, 245, 54);
+}
+
+.final-list{
+    padding-bottom: 30px;
 }
